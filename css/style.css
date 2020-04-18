@@ -262,6 +262,19 @@ footer .footer-boxes a {
     text-transform: uppercase;
 }
 
+/* button help style */
+
+.help {
+    position: fixed;
+    bottom: 0;
+    right: 302px;
+    padding: 15px 20px;
+    border-radius: 3px;
+    background-color: #7cbb02;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
 
 
 
