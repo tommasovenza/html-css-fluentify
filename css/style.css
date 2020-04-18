@@ -18,14 +18,6 @@ ul li {
     text-transform: uppercase;
 }
 
-/* GENERAL CLASS CLEARFIX */
-
-.clearfix {
-    content: '';
-    display: table;
-    clear: both;
-}
-
 /* header */
 
 header {
@@ -40,9 +32,21 @@ header {
     position: relative;
 }
 
+/* general rules for container */
+
 .container {
     margin: auto;
     width:  85%;
+}
+
+/* FINE REGOLE DEL CONTAINER */
+
+/* GENERAL CLASS CLEARFIX */
+
+.clearfix {
+    content: '';
+    display: table;
+    clear: both;
 }
 
 .col {
@@ -150,3 +154,40 @@ header a {
     font-size: 18px;
     margin-top: 10px;
 }
+
+/* main */
+
+main .top-area {
+    height: 400px;
+}
+
+main .top-area .block {
+    float: left;
+    padding: 20px;
+    width: 33%;
+    color: #808080;
+    text-align: center;
+    margin: 50px 0;
+}
+
+main .top-area .block img {
+    max-height: 100px;
+}
+
+main .top-area .block h3 {
+    color: #7cbb02;
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 15px;
+}
+
+main .top-area .block p {
+    font-size: 14px;
+}
+
+.hr {
+    width: 50px;
+    color: #808080;
+    margin: 15px auto;
+}
+
