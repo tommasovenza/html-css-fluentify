@@ -1,8 +1,12 @@
+/* RESET CSS */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+/* GENERAL CSS RULES */
 
 body {
     font-family: 'roboto', verdana;
@@ -13,6 +17,16 @@ ul li {
     list-style-type: none;
     text-transform: uppercase;
 }
+
+/* GENERAL CLASS CLEARFIX */
+
+.clearfix {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/* header */
 
 header {
     background-color: #0c325a;
@@ -39,10 +53,14 @@ header a {
     color: white;
 }
 
+/* div #logo */
+
 #logo.col {
     width: 15%;
     margin-top: 10px;
 }
+
+/* div #menu CENTRALE */
 
 #menu.col {
     width: 45%;
@@ -57,6 +75,8 @@ header a {
     margin-right: 16px;
     text-decoration: none;
 }
+
+/* div #menu stilizzato */
 
 #menu-style.col {
     width: 40%;
@@ -86,6 +106,8 @@ header a {
     background-color: #7cbb02;
 }
 
+/* HERO SECTION */
+
 .hero-section {
     position: absolute;
     top: 45%;
@@ -109,10 +131,22 @@ header a {
     text-transform: uppercase;
 }
 
-/* general class clearfix */
+/* SECTION GRIGIA */
 
-.clearfix {
-    content: '';
-    display: table;
-    clear: both;
+.gray-area {
+    background-color: #d3d3d3;
+    color: #000;
+    text-align: center;
+    padding: 60px;
+}
+
+.gray-area h3 {
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.gray-area p {
+    color: #808080;
+    font-size: 18px;
+    margin-top: 10px;
 }
