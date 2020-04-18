@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'roboto', verdana;
+    font-size: 11px;
+}
+
+ul li {
+    list-style-type: none;
+    text-transform: uppercase;
+}
+
+header {
+    background-color: #0c325a;
+    height: 600px;
+    color: #fff;
+    background-image: url(../img/background-header.png);
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position-x: 90vh;
+    background-position-y: 46vh;
+    position: relative;
+}
+
+.container {
+    margin: auto;
+    width:  85%;
+}
+
+.col {
+    float: left;
+}
+
+header a {
+    color: white;
+}
+
+#logo.col {
+    width: 15%;
+    margin-top: 10px;
+}
+
+#menu.col {
+    width: 45%;
+}
+
+#menu li {
+    margin-top: 26px;
+    text-align: center;
+}
+
+#menu a {
+    margin-right: 16px;
+    text-decoration: none;
+}
+
+#menu-style.col {
+    width: 40%;
+}
+
+#menu-style li {
+    margin-top: 20px;
+    text-align: right;
+}
+
+#menu-style a {
+    margin-right: 16px;
+    text-decoration: none;
+}
+
+#menu-style .style {
+    padding: 5px 25px;
+    border: 1px solid #fff;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+#menu-style .style2 {
+    padding: 6px 25px;
+    display: inline-block;
+    border-radius: 5px;
+    background-color: #7cbb02;
+}
+
+.hero-section {
+    position: absolute;
+    top: 45%;
+    left: 7.5%;
+}
+
+.hero-section h1 {
+    font-size: 60px;
+    width: 700px;
+    font-weight: 500;
+    line-height: 65px;
+}
+
+.hero-section a {
+    margin-top: 40px;
+    padding: 16px 14px;
+    display: inline-block;
+    border-radius: 3px;
+    background-color: #7cbb02;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/* general class clearfix */
+
+.clearfix {
+    content: '';
+    display: table;
+    clear: both;
+}
