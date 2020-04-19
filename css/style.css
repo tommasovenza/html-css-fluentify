@@ -22,12 +22,12 @@ ul li {
 
 header {
     background-color: #0c325a;
-    height: 620px;
+    height: 100vh;
     color: #fff;
     background-image: url(../img/background-header.png);
     background-repeat: no-repeat;
     background-size: 80%;
-    background-position-x: 60vh;
+    background-position-x: 50vh;
     background-position-y: 40vh;
     position: relative;
 }
