@@ -26,9 +26,9 @@ header {
     color: #fff;
     background-image: url(../img/background-header.png);
     background-repeat: no-repeat;
-    background-size: 60%;
-    background-position-x: 90vh;
-    background-position-y: 50vh;
+    background-size: 80%;
+    background-position-x: 60vh;
+    background-position-y: 40vh;
     position: relative;
 }
 
@@ -134,8 +134,8 @@ header a:hover {
 }
 
 .hero-section h1 {
-    font-size: 60px;
-    width: 700px;
+    font-size: 55px;
+    width: 600px;
     font-weight: 500;
     line-height: 65px;
 }
@@ -300,13 +300,20 @@ footer .footer-boxes a:hover {
 .help {
     position: fixed;
     bottom: 0;
-    right: 289px;
+    right: 259px;
     padding: 15px 20px;
-    border-radius: 3px;
+    border-radius: 2px;
     background-color: #7cbb02;
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
+}
+
+.help:hover {
+    background-color: #E65A15;
+    -webkit-transform: rotateZ(-10deg);
+    -ms-transform: rotateZ(-10deg);
+    transform: rotateZ(-10deg);
 }
 
 
