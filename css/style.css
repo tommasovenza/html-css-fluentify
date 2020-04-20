@@ -123,8 +123,6 @@ header a:hover {
     color: white;
 }
 
-
-
 /* HERO SECTION */
 
 .hero-section {
@@ -181,8 +179,7 @@ main .top-area {
     padding: 10px 0;
 }
 
-main .top-area .block {
-    float: left;
+main .top-area .col {
     padding: 20px;
     width: 33%;
     color: #808080;
@@ -190,18 +187,18 @@ main .top-area .block {
     margin: 50px 0;
 }
 
-main .top-area .block img {
+main .top-area .col img {
     max-height: 100px;
 }
 
-main .top-area .block h3 {
+main .top-area .col h3 {
     color: #7cbb02;
     font-size: 22px;
     font-weight: 500;
     margin-top: 15px;
 }
 
-main .top-area .block p {
+main .top-area .col p {
     font-size: 14px;
 }
 
@@ -219,25 +216,24 @@ hr {
 
 /* main bottom area */
 
-main .bottom-area .box {
-    float: left;
+main .bottom-area .col {
     width: 50%;
     color: #000;
     padding: 50px;
 }
 
-main .bottom-area .box h2 {
+main .bottom-area .col h2 {
     font-size: 32px;
     font-weight: 500;
 }
 
-main .bottom-area .box p {
+main .bottom-area .col p {
     margin: 15px 0;
     font-size: 16px;
     color: #808080;
 }
 
-main .bottom-area .box a {
+main .bottom-area .col a {
     color: #5586bc;
     font-size: 13px;
 }
@@ -257,22 +253,21 @@ footer span {
     text-transform: capitalize;
 }
 
-footer .footer-boxes {
-    float: left;
+footer .col {
     width: 50%;
 }
 
-footer .footer-boxes h2 {
+footer .col h2 {
     font-size: 28px;
     font-weight: 500;
 }
 
-footer .footer-boxes li {
+footer .col li {
     display: inline-block;
     margin: 10px 30px 0 0;
 }
 
-footer .footer-boxes a {
+footer .col a {
    
     padding: 16px 14px;
     border-radius: 3px;
@@ -282,7 +277,7 @@ footer .footer-boxes a {
     text-transform: uppercase;
 }
 
-footer .footer-boxes a:hover {
+footer .col a:hover {
     background-color: #E65A15;
 }
 
